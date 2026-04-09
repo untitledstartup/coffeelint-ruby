@@ -1,6 +1,8 @@
 Forked from https://github.com/zmbush/coffeelint-ruby because the official Gem hasn't received updates since 2016, and is using the method `File.exists?` which has been deprecated and removed from Ruby 3.4 (in favor of `File.exist?`).
 
----
+The "fork" was done by making an empty private `untitledstartup/coffeelint-ruby-mighty` repo, and then cloning the upstream repo and pushing it here, rather than the Github 'fork' button, because we cannot create private forks of public repos.
+
+--
 
 # Coffeelint [![Build Status](https://travis-ci.org/zmbush/coffeelint-ruby.svg?branch=master)](https://travis-ci.org/zmbush/coffeelint-ruby) [![Gem Version](https://badge.fury.io/rb/coffeelint.png)](http://badge.fury.io/rb/coffeelint)
 
